@@ -1,0 +1,18 @@
+.navbar {
+  background: #828649;
+}
+
+.nav-item, .nav-link {
+  color: #FFFF;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+.nav-item:hover, .nav-link:hover, .nav-item:visited, .nav-link:visited {
+  color: #FFFF;
+  text-decoration-line: underline;
+}
+
+#title-box {
+ background-color: #FFFF;
+}
