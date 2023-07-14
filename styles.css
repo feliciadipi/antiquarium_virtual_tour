@@ -1,8 +1,3 @@
-body {
-  background-image: url('home.jpeg');
-  background-size: cover;
-}
-
 .navbar {
   background: #828649;
 }
@@ -16,8 +11,4 @@ body {
 .nav-item:hover, .nav-link:hover, .nav-item:visited, .nav-link:visited {
   color: #FFFF;
   text-decoration-line: underline;
-}
-
-#welcome-msg {
-  background-color: #FFFF;
 }
