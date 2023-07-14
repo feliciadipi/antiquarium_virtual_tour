@@ -1,3 +1,8 @@
+body {
+  background-image: url('home.jpeg');
+  background-size: cover;
+}
+
 .navbar {
   background: #828649;
 }
@@ -13,6 +18,6 @@
   text-decoration-line: underline;
 }
 
-#title-box {
- background-color: #FFFF;
+#welcome-msg {
+  background-color: #FFFF;
 }
