@@ -3,12 +3,22 @@
 }
 
 .nav-item, .nav-link {
-  color: #FFFF;
+  color: white;
   font-family: 'Times New Roman', Times, serif;
   font-weight: lighter;
 }
 
 .nav-item:hover, .nav-link:hover, .nav-item:visited, .nav-link:visited {
-  color: #FFFF;
+  color: white;
+  text-decoration-line: underline;
+}
+
+.nav-arrow {
+  color: black;
+  text-decoration-line: none;
+}
+
+.nav-arrow:hover, .nav-arrow:visited {
+  color: black;
   text-decoration-line: underline;
 }
