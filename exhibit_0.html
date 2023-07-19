@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exhibit</title>
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+    defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+    <!--CUSTOM STYLES-->
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="min-vh-100">
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg d-flex justify-content-between p-2">
+    
+    <!--HOMEPAGE LINK-->
+    <div class="d-flex">
+      <a class="nav nav-item nav-link fs-4" href="home.html">⌂</a>
+    </div>
+    
+    <!--LANGUAGE SELECTION-->
+    <div class="d-flex fs-6">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" id="lang-it">IT</a>
+        </li>
+        <li class="nav-item">
+          <div class="nav-link">|</div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="lang-en">EN</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--MAIN-->
+  <div class="d-flex flex-column justify-content-between m-3">
+    <div class="d-flex ms-3 mt-3">
+      <div class="fs-1 ms-3" id="title"></div>
+    </div>
+    <div class="d-flex m-3">
+      <img class="m-3 h-50 w-50" src="images/home.jpeg"></img>
+      <div class="m-3" id="a"></div>
+      <div class="m-3" id="b"></div>
+    </div>
+    <div class="position-absolute bottom-0 start-0 p-4">
+      <a class="nav-arrow fs-1" href="home.html">←</a>
+    </div>
+    <div class="position-absolute bottom-0 end-0 p-4">
+      <a class="nav-arrow fs-1" href="exhibit_1.html">→</a>
+    </div>
+  </div>
+
+  <!--TEXT (SPECIFIC TO EXHIBIT)-->
+  <script>
+    let text = {
+      title: {
+        it: "Tratto dall'Odissea di Omero",
+        en: "Excerpt from Homer’s Odyssey"
+      },
+      a:{
+        it: "Dall'altra parte sono due roccie, de' quali l'una con vetta acuminata giunge al largo ciel, e una nube oscura la circonda; questo non scorre mai via, e non c'è aria limpida intorno al picco né in estate né durante la marea del raccolto. Nessun uomo mortale può scalarlo o mettervi piede, anche se avesse venti mani e piedi. Poiché la roccia è liscia e ripida, come levigata. E in mezzo alla scogliera c'è un'oscura caverna rivolta a Erebus, verso il luogo delle tenebre, per cui guiderai anche la tua nave vuota, nobile Odisseo. Nemmeno con una freccia scagliata da un arco un uomo nella sua forza potrebbe raggiungere dalla sua nave cava in quella profonda caverna.",
+        en: "On the other part are two rocks, whereof the one reaches with sharp peak to the wide heaven, and a dark cloud encompasses it; this never streams away, and there is no clear air about the peak neither in summer nor in harvest tide. No mortal man may scale it or set foot thereon, not though he had twenty hands and feet. For the rock is smooth, and sheer, as it were polished. And in the midst of the cliff is a dim cave turned to Erebus, towards the place of darkness, whereby ye shall even steer your hollow ship, noble Odysseus. Not with an arrow from a bow might a man in his strength reach from his hollow ship into that deep cave."
+      },
+      b:{
+        it: "E lì abita Scilla, urlando terribilmente. La sua voce in verità non è più grande della voce di un cucciolo appena nato, ma è un mostro spaventoso, e nessuno la guarderebbe volentieri, non se fosse un dio che la incontrasse. In verità ha dodici piedi tutti penzolanti; e sei colli lunghissimi, e su ciascuno una testa orribile, e in esso tre file di denti fitti e fitti, pieni di morte nera. Fino al centro è sprofondata molto in basso nella cava caverna, ma in avanti tiene le teste dall'orribile abisso, e lì pesca, piombando intorno alla roccia, per delfini o lupi di mare, o qualunque bestia più grande possa prendere ovunque , di cui l'Anfitrite dalla voce profonda nutre innumerevoli greggi. Per questo nessun marinaio si vanta di essere sempre fuggito senza pietà con la sua nave, poiché con ogni testa porta via un uomo, che ha strappato dalla nave dalla prua scura.",
+        en: "And therein dwelleth Scylla, yelping terribly. Her voice indeed is no greater than the voice of a new-born whelp, but a dreadful monster is she, nor would any look on her gladly, not if it were a god that met her. Verily she hath twelve feet all dangling down; and six necks exceeding long, and on each a hideous head, and therein three rows of teeth set thick and close, full of black death. Up to her middle is she sunk far down in the hollow cave, but forth she holds her heads from the dreadful gulf, and there she fishes, swooping round the rock, for dolphins or sea-dogs, or whatso greater beast she may anywhere take, whereof the deep-voiced Amphitrite feeds countless flocks. Thereby no sailors boast that they have fled scatheless ever with their ship, for with each head she carries off a man, whom she hath snatched from out the dark-prowed ship."
+      }
+    }
+  </script>
+  
+  <!--RENDER/TRANSLATE MODULE (GENERAL)-->
+  <script src="scripts/render.js" type="module"></script>
+</body>
+
+</html>
