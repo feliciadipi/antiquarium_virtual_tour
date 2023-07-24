@@ -44,18 +44,19 @@
 
   <!--MAIN-->
   <div class="d-flex flex-column justify-content-between m-3">
-    <div class="d-flex m-3">
-      <div class="fs-1 ms-3" id="title"></div>
+    <div class="fs-1 m-3 text-center" id="title"></div>
+    <div class="d-flex justify-content-center">
+      <!--artifact: https://opencontext.org/subjects/19debb45-ec1b-4d67-4088-7bb5b2a6f060-->
+      <img class="m-3 h-25 w-25" src="images/bucchero1.jpeg"></img>
+      <img class="m-3 h-25 w-25" src="images/bucchero2.jpeg"></img>
+      <img class="m-3 h-25 w-25" src="images/bucchero3.jpeg"></img>
     </div>
-    <div class="d-flex m-3">
-      <div class="m-3" id="a"></div>
-      <div class="m-3" id="b"></div>
-    </div>
-    <div class="position-absolute bottom-0 start-0 p-4">
-      <a class="nav-arrow fs-1" href="exhibit_0.html">←</a>
-    </div>
-    <div class="position-absolute bottom-0 end-0 p-4">
-      <a class="nav-arrow fs-1" href="exhibit_2.html">→</a>
+    <div class="d-flex flex-column m-3">
+      <div class="mb-3" id="a"></div>
+      <div class="d-flex justify-content-between">
+        <a class="nav-arrow fs-1" href="exhibit_0.html">←</a>
+        <a class="nav-arrow fs-1" href="exhibit_2.html">→</a>
+      </div>
     </div>
   </div>
 
@@ -63,16 +64,26 @@
   <script>
     let text = {
       title: {
-        it: "esempio 1",
-        en: "example 1"
+        it: "La Ceramica",
+        en: "Ceramics"
       },
       a:{
-        it: 'uno',
-        en: 'one'
-      },
-      b:{
-        it: 'due',
-        en: 'two'
+        it: `Quasi tutta la ceramica recuperata dagli scavi a Poggio Civitate è prodotta localmente da fonti di argilla disponibili sulla collina. Tuttavia, una piccola quantità di ceramica, la maggior parte della quale è stata recuperata dal pavimento del palazzo della Fase Intermedia, è stata prodotta nel Mediterraneo orientale come Corinto, Laconia, Chios e Ionia. Questo gruppo di ceramiche importate ha fornito un importante strumento cronologico, rivelando che la fase intermedia dell'insediamento di Poggio Civitate fu probabilmente distrutta entro il periodo di tempo approssimativo della produzione di questa ceramica, tra il 620 e il 580 a.C. circa.
+
+            Esempi di eleganti coppe per bere prodotte localmente sono realizzate in bucchero a volte erano accompagnate da manici a forma di dea. A volte è raffigurata affiancata o circondata da animali, altre volte con ali e trecce di capelli che le scendono sulle spalle. Comunemente chiamata Potnia Theron - o la Padrona degli Animali - questa iconografia è quella vista attraverso il Medio Oriente e il Mediterraneo più ampio. Raffigura una dea conosciuta con molti nomi: Ishtar nel Medio Oriente, Astarte nel Mediterraneo orientale, Artemide nel mondo greco. In tutti i casi, questa divinità è collegata a vari aspetti della fertilità. Qui in Etruria è conosciuta come Uni, nome che alla fine diventerà la Giunone romana.
+
+            Raffigurare Uni su vasi per bere il vino è una scelta deliberata. Il vino provoca intossicazione e l'intossicazione può portare a comportamenti libidinosi. Tra l'aristocrazia dell'Etruria, la sessualità e la riproduzione erano una preoccupazione politica essenziale. Senza eredi che continuino la linea dinastica di una famiglia, il potere politico crollerebbe. Pertanto, gli Etruschi di Poggio Civitate (e molte altre comunità vicine) collocarono immagini di questa dea su vasi di vino per sovrintendere non solo agli eventi dei banchetti, ma per facilitare il dominio continuato dei loro capi.
+
+            Un altro importante meccanismo di controllo sociale e politico a Poggio Civitate è rappresentato dalle grandi concentrazioni di ceramica di produzione locale. Recuperati nelle vicinanze del palazzo della fase intermedia, centinaia di vasi raggruppati insieme rappresentano un numero di gran lunga superiore a quello che sarebbe necessario per sostenere il pranzo degli abitanti del palazzo. Invece, la ricerca supporta l'idea che la famiglia regnante di Poggio Civitate coordinasse e ospitasse grandi raduni in cima alla collina, una caratteristica delle quali sarebbero stati i banchetti opulenti. Provvedendo in questo modo alla comunità circostante, i capi di Poggio Civitate avrebbero consolidato ulteriormente la loro posizione nella comunità e controllato meglio le comunità subordinate situate in località come Murlo, Vescovado di Murlo, Lupompesi e Pompana.
+            `,
+        en: `Nearly all ceramic recovered from excavations at Poggio Civitate is locally produced from available clay sources on the hill. However, a small quantity of pottery, most of which was recovered from the floor of the palazzo of the Intermediate Phase, was manufactured in the easter Mediterranean such as Corinth, Laconia, Chios, and Ionia. This group of imported pottery provided an important chronological instrument, revealing that the Intermediate Phase of Poggio Civitate’s settlement was likely destroyed within the approximate time frame of this pottery’s production – between about 620-580 BCE. 
+
+            Locally produced examples of elegant drinking cups are made from bucchero were sometimes complimented with handles in the form of a goddess. At times, she is depicted flanked or surrounded by animals, other times she is shown with wings and braids of hair that hang down over her shoulders. Commonly called Potnia Theron – or the Mistress of the Animals – this iconography is one seen through the middle east and wider Mediterranean. It depicts a goddess known by many names: Ishtar in the Midde East, Astarte in the Eastern Mediterranean, Artemis in the Greek world. In all instances, this divinity is connect to various aspects of fertility. Here in Etruria, she is known as Uni, a name that will eventually become the Roman Juno.
+
+            Depicting Uni on wine drinking vessels is a deliberate choice. Wine causes intoxication and intoxication may lead to libidinous behavior. Among the aristocracy of Etruria, sexuality and reproduction was an essential political concern. Without heirs to continue a family’s dynastic line, political power would collapse. Therefore, the Etruscans of Poggio Civitate (and many other nearby communities) placed images of this goddess on wine vessels to oversee not only the events of banquets, but to facilitate the continued rule of their leaders. 
+
+            Another important mechanism of social and political control at Poggio Civitate is seen in the great concentrations of locally produced pottery. Recovered in the vicinity of the Intermediate phase’s palazzo, hundreds of vessels clustered together represent a far greater number than would be needed to support dining of the palazzo’s residents. Instead, research supports the idea that the ruling family of Poggio Civitate coordinated and hosted large gatherings atop the hill, one feature of which would have bee opulent banqueting. By providing for the surrounding community in this manner, Poggio Civitate’s leaders would have further solidified their standing in the community and better controlled subordinate communities located at places such as Murlo, Vescovado di Murlo, Lupompesi, and Pompana.
+            `
       }
     }
   </script>

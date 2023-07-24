@@ -42,18 +42,17 @@
 
   <!--MAIN-->
   <div class="d-flex flex-column justify-content-between m-3">
-    <div class="d-flex m-3">
-      <div class="fs-1 ms-3" id="title"></div>
+    <div class="fs-1 m-3 text-center" id="title"></div>
+    <div class="d-flex justify-content-center">
+      <img class="m-3 h-25 w-25" src="images/workshop1.jpeg"></img>
+      <img class="m-3 h-25 w-25" src="images/workshop2.JPG"></img>
     </div>
-    <div class="d-flex m-3">
-      <div class="m-3" id="a"></div>
-      <div class="m-3" id="b"></div>
-    </div>
-    <div class="position-absolute bottom-0 start-0 p-4">
-      <a class="nav-arrow fs-1" href="exhibit_1.html">←</a>
-    </div>
-    <div class="position-absolute bottom-0 end-0 p-4">
-      <a class="nav-arrow fs-1" href="exhibit_3.html">→</a>
+    <div class="d-flex flex-column m-3">
+      <div class="mb-3" id="a"></div>
+      <div class="d-flex justify-content-between">
+        <a class="nav-arrow fs-1" href="exhibit_1.html">←</a>
+        <a class="nav-arrow fs-1" href="exhibit_3.html">→</a>
+      </div>
     </div>
   </div>
 
@@ -61,16 +60,30 @@
   <script>
     let text = {
       title: {
-        it: "esempio 2",
-        en: "example 2"
+        it: "L'officina",
+        en: "The Workshop"
       },
       a:{
-        it: 'uno',
-        en: 'one'
-      },
-      b:{
-        it: 'due',
-        en: 'two'
+        it: `Lo scavo lungo il margine meridionale del Piano del Tesoro ha rivelato la presenza di un'ampia area industriale. Questo edificio era contemporaneo al palazzo e all'edificio tripartito della fase intermedia e conserva alcune delle migliori testimonianze di diverse modalità di produzione che sopravvivono dal VII secolo aC.
+
+        Tuttavia, il tetto dell'officina rivela un dettaglio importante. Il suo colmo era ornato da eleganti immagini di palmette di loto mentre la sima (o grondaia) era costituita da antefisse femminili alternate a zampilli felini. Osservando isolatamente si nota un volto femminile affiancato da animali, altro esempio del motivo associato alla dea Uni, divinità etrusca della sessualità e della fertilità. Poiché l'interesse per la riproduzione e la creazione di eredi era centrale nella vita aristocratica, questo è probabilmente un'indicazione che lo spazio del laboratorio era controllato dalla famiglia regnante della comunità che viveva a pochi metri di distanza in un edificio decorato in modo simile.
+
+        All'interno dell'edificio, lo scavo ha restituito testimonianze di una fonderia con mantice, tubi, crogiuoli e forni utilizzati per la fusione di piccoli oggetti in bronzo. Nelle vicinanze, vediamo abbondanti prove di intaglio di ossa e corna, con lavoratori che producono strumenti e oggetti ornamentali come placche, intarsi e figurine.
+
+        Migliaia di esempi di ossa di animali macellati riflettono lo sfruttamento degli animali. Queste ossa, spesso macellate in un modo simile a quello visto oggi, mostrano che la comunità godeva di una dieta a base di pecore, maiali e occasionalmente bovini. Altrove nel laboratorio, vediamo prove della raccolta del grano, dell'uva, dei fagioli e dei ceci, tutti alimenti base della dieta toscana allora come lo sono oggi.
+
+        Il centro dell'edificio risulta essere stato utilizzato per la produzione di materiali in argilla. Vediamo prove della produzione di ceramiche e della fabbricazione di tegole. Infatti, il giorno in cui l'edificio è andato a fuoco, gli operai hanno creato un gruppo di tegole e le hanno poste sul pavimento ad asciugare all'ombra del tetto dell'edificio. Quando è scoppiato l'incendio, la gente è stata presa dal panico ed è scappata dall'edificio, calpestando l'argilla ancora bagnata. Il calore del fuoco era sufficiente per cuocere l'argilla, lasciando dietro di sé le loro impronte.
+        `,
+        en: `Excavation along the southern edge of Piano del Tesoro revealed the presence of a large industrial area. This building was contemporary with the palazzo and tripartite building of the Intermediate phase and preserves some of the best evidence of different modes of manufacturing that survive from the 7th century BCE. 
+
+        However, the roof of the workshop reveals an important detail. Its ridgepole was adorned with elegant images of lotus palmettes while the sima (or gutter) consisted of female antefixes alternating with feline water spouts. If viewing in isolation, we see a female face flanked by animals, another example of the motif associated with the goddess Uni, the Etruscan divinity of sexuality and fertility. Since a concern with reproduction and the creation of heirs was central to aristocratic life, this is likely an indication that the workshop space was controlled by the community’s ruling family that lived only a few meters away in a similarly decorated building. 
+
+        Within the building, excavation has recovered evidence of a foundry with bellows, piping, crucibles, and fornos all used to cast small bronze objects. Nearby, we see abundant evidence of bone and antler carving, with workers producing tools as well as ornamental objects such as plaques, inlays, and figurines. 
+
+        Thousands of examples of butchered animal bone reflect the exploitation of animals. These bones, often butchered in a manner similar to that seen today, show that the community enjoyed a diet of sheep, pig and occasionally beef. Elsewhere in the workshop, we see evidence of the harvesting of grain, grapes beans, and chickpeas, all staples of the Tuscan diet then as they are today.
+
+        The center of the building appears to have been used for the production of materials in clay. We see evidence of pottery production as well as the manufacture of roofing tiles. In fact, the day the building burned down, workers have created a group of tiles and placed them on the floor to dry in the shade of the building’s roof. When the fire broke out, people panicked and ran from the building, stepping on the still wet clay. The heat of the fire was enough to bake the clay, leaving their footprints behind. 
+        `
       }
     }
   </script>
