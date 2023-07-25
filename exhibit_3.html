@@ -12,8 +12,8 @@
     defer></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  
-    <!--CUSTOM STYLES-->
+
+  <!--CUSTOM STYLES-->
   <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -43,18 +43,68 @@
   </nav>
 
   <!--MAIN-->
-  <div class="d-flex flex-column justify-content-between m-3">
-    <div class="fs-1 m-3 text-center" id="title"></div>
-    <div class="d-flex justify-content-center">
-      <img class="m-3 h-50 w-50" src="images/workshop1.jpeg"></img>
+  <div class="container text-center">
+    <div class="row">
+      <div class="p-3 fs-1" id="title"></div>
     </div>
-    <div class="d-flex flex-column m-3">
-      <div class="mb-3" id="a"></div>
-      <div class="d-flex justify-content-between">
-        <a class="nav-arrow fs-1" href="exhibit_2.html">←</a>
-        <a class="nav-arrow fs-1" href="exhibit_4.html">→</a>
+
+    <div class="row">
+      <div class="col-sm">
+        <!--https://opencontext.org/media/49786891-c100-4036-b5da-7a22bd405d91-->
+        <img class="p-3 w-100" src="images/flower.PNG"></img>
+      </div>
+      <div class="col-sm">
+        <!--https://opencontext.org/media/00771411-d06e-4ef9-978c-8c73ce46ce7b-->
+        <img class="p-3 w-100" src="images/female.JPG"></img>
+      </div>
+      <div class="col-sm">
+        <!--https://opencontext.org/media/b81653b6-de20-496d-dcb3-fa93165c38bd-->
+        <img class="p-3 w-100" src="images/feline.PNG"></img>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="p-3 text-start" id="a"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <!--https://opencontext.org/media/2c7b6d73-019f-4a6d-2f07-0892eec4c011-->
+        <img class="p-3 w-100" src="images/procession.jpeg"></img>
+      </div>
+      <div class="col-sm">
+        <div class="p-3 text-start" id="b"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <!--https://opencontext.org/media/40396ed6-3e01-47f5-bf44-7542faf38efb-->
+        <img class="p-3 w-100" src="images/horse.jpeg"></img>
+      </div>
+      <div class="col-sm">
+        <div class="p-3 text-start" id="c"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img class="p-3 w-100" src="images/wedding.jpg"></img>
+      </div>
+      <div class="col-sm">
+        <div class="p-3 text-start" id="d"></div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="d-flex justify-content-between">
+        <a class="nav-arrow p-2 fs-1" href="exhibit_2.html">←</a>
+        <a class="nav-arrow p-2 fs-1" href="exhibit_4.html">→</a>
+      </div>
+    </div>
+
   </div>
 
   <!--TEXT (SPECIFIC TO EXHIBIT)-->
@@ -64,27 +114,35 @@
         it: "Decorazione Architettonica",
         en: "Architectural Decoration"
       },
-      a:{
+      a: {
         it: `La decorazione scultorea della fase finale dell'architettura domestica d'élite di Poggio Civitate è una delle testimonianze più sconcertanti ed evocative di questo periodo di vita in Toscana. Tuttavia, una considerazione dettagliata delle prove mostra che il programma decorativo comunicava un messaggio specifico allo spettatore antico. La sima (o grondaia) laterale dell'edificio era costituita da una versione leggermente più sviluppata della forma vista nella fase intermedia, con un volto femminile affiancato da fiori e felini. Questa, ancora una volta, è la dea etrusca della fertilità, forse conosciuta a Poggio Civitate come Uni. Dal cortile interno, uno spettatore guarderebbe per vedere questa dea e poi in cima all'edificio dove le famose statue di Cowboy e Cowgirl del sito sedevano in trono e circondate da animali reali e fantastici. Questo è sicuramente intenzionale, inteso a collegare l'immagine di una dea responsabile della fertilità con le immagini della famiglia regnante e dei loro antenati sopra.
-
-        Anche altri aspetti della decorazione dell'edificio si riferiscono a questo tema. Le placche del fregio sarebbero state inchiodate a travi di legno a vista e rappresentano quattro diverse scene. I dati geospaziali raccolti negli anni di scavo suggeriscono che la scena della corsa dei cavalli decorasse il lato occidentale dell'edificio mentre l'immagine delle coppie banchettanti ornasse l'ala settentrionale. La scena della processione in cui una donna e un attendente in toga cavalcano su un carro circondato da servitori decorava l'ala meridionale mentre la scena delle figure in trono e in piedi era collocata lungo il lato est del cortile dell'edificio.
-
-        Queste quattro immagini formano una serie collegata. La scena della Processione raffigura la donna vestita che arriva a Poggio Civitate. Questa è quasi certamente una sposa. Il suo abito significherebbe questo ruolo, ma gli assistenti dietro il carro portano sulle loro teste attrezzature associate alla produzione tessile. La produzione di tessuti era un obbligo frequente delle donne nelle antiche comunità. Non solo forniva un bene essenziale, ma forniva anche un modo per un marito di lasciare la casa e tornare per vedere i progressi della giornata espressi sul telaio: un modo sottile e indiretto per gli uomini di controllare le opportunità sessuali dei coniugi in un ambiente in cui la discendenza patrilineare era una preoccupazione politica e sociale critica.
-
+        `,
+        en: `The sculptural decoration of Poggio Civitate’s final phase of elite domestic architecture is one of the most puzzling and evocative bodies of evidence from this period of life in Tuscany. However, a detailed consideration of the evidence shows that the decorative program communicated a specific message to the ancient viewer. The building’s lateral sima (or gutter) consisted of a slightly more developed version of the form seen in the Intermediate phase, with a female face flanked by flowers and felines. This, once again, is the Etruscan goddess of fertility, possibly known at Poggio Civitate as Uni. From the interior courtyard, a viewer would look to see this goddess and then to the top of the building where the site’s famous Cowboy and Cowgirl statues sat enthroned and surrounded by real and fantastical animals. This is surely intentional, meant to connect the image of a goddess responsible for fertility with the images of the ruling family and their ancestry above.
+        `
+      },
+      b: {
+        it: `Anche altri aspetti della decorazione dell'edificio si riferiscono a questo tema. Le placche del fregio sarebbero state inchiodate a travi di legno a vista e rappresentano quattro diverse scene. I dati geospaziali raccolti negli anni di scavo suggeriscono che la scena della corsa dei cavalli decorasse il lato occidentale dell'edificio mentre l'immagine delle coppie banchettanti ornasse l'ala settentrionale. La scena della processione in cui una donna e un attendente in toga cavalcano su un carro circondato da servitori decorava l'ala meridionale mentre la scena delle figure in trono e in piedi era collocata lungo il lato est del cortile dell'edificio.
+        `,
+        en: `Other aspects of the building’s decoration also relate to this theme. The frieze plaques would have been nailed to exposed wooden beams and represent four different scenes. Geospatial data collected over the years of excavation suggest that the scene of the horse race decorated the western side of the building while the image of the banqueting couples adorned the northern wing. The procession scene wherein a gowned female and male attendant ride on a chariot surrounded by servants decorated the southern wing while the scene of enthroned and standing figures was placed along the east of the building’s courtyard. 
+        `
+      },
+      c: {
+        it: `
         La scena della corsa di cavalli raffigura poi giochi celebrativi in onore dell'arrivo della sposa, così come la rappresentazione del banchetto. Con la scena delle figure in trono e in piedi, vediamo ancora una volta la sposa, terza figura da destra, mentre apre il velo in un gesto ampiamente riconosciuto come associato al matrimonio. Le altre figure della scena sono costituite dal marito e probabile capo della comunità, che regge il bastone ricurvo detto lituus, simbolo originariamente etrusco di autorità religiosa e politica che sopravvive oggi sotto forma di pastorale vescovile. Dietro questa figura c'è una che impugna delle armi, mentre il gruppo di tre figure sedute a sinistra della scena rappresenta probabilmente altri membri della famiglia o figure ancestrali. Vediamo dunque nel programma decorativo di Poggio Civitate un messaggio coerente inteso a comunicare i temi della stirpe e della fertilità, presidiati dalla dea responsabile della procreazione.
         `,
-        en: `The sculptural decoration of Poggio Civitate’s final phase of elite domestic architecture is one of the most puzzling and evocative bodies of evidence from this period of life in Tuscany. However, a detailed consideration of the evidence shows that the decorative program communicated a specific message to the ancient viewer. The building’s lateral sima (or gutter) consisted of a slightly more developed version of the form seen in the Intermediate phase, with a female face flanked by flowers and felines. This, once again, is the Etruscan goddess of fertility, possibly known at Poggio Civitate as Uni. From the interior courtyard, a viewer would look to see this goddess and then to the top of the building where the site’s famous Cowboy and Cowgirl statues sat enthroned and surrounded by real and fantastical animals. This is surely intentional, meant to connect the image of a goddess responsible for fertility with the images of the ruling family and their ancestry above. 
-
-        Other aspects of the building’s decoration also relate to this theme. The frieze plaques would have been nailed to exposed wooden beams and represent four different scenes. Geospatial data collected over the years of excavation suggest that the scene of the horse race decorated the western side of the building while the image of the banqueting couples adorned the northern wing. The procession scene wherein a gowned female and male attendant ride on a chariot surrounded by servants decorated the southern wing while the scene of enthroned and standing figures was placed along the east of the building’s courtyard. 
-
-        These four images form a connected series. The Procession scene depicts the gowned female arriving at Poggio Civitate. This is almost certainly a bride. Her gown would signify this role – but the attendants behind the chariot carry on their heads equipment associated with textile production. The production of textiles was a frequent obligation of women in ancient communities. It not only provided an essential commodity, it also provided a way for a husband to leave the household and return to see the day’s progress expressed upon the loom – a subtle and indirect way for men to control the sexual opportunities of spouses in an environment where patrilineal descent was a critical political and social concern. 
-
+        en: `
         The horse race scene then depicts celebratory games in honor of the bride’s arrival, as does the representation of the banquet. With the scene of enthroned and standing figures, we see the bride once again, the third figure from the right, as she opens her veil in a gesture widely recognized as associated with matrimony. The other figures of the scene consist of the husband and likely community leader, holding the curved staff called a lituus, an originally Etruscan symbol of religious and political authority that survives today in the form of a bishop’s crozier. Behind this figure is one holding weapons, while the group of three seated figures to the let of the scene likely represent either additional members of the family or ancestral figures. Therefore, we see with Poggio Civitate’s decorative program a coherent message intended to communicate themes of ancestry and fertility, overseen by the goddess responsible for procreation.
+        `
+      },
+      d: {
+        it: `Queste quattro immagini formano una serie collegata. La scena della Processione raffigura la donna vestita che arriva a Poggio Civitate. Questa è quasi certamente una sposa. Il suo abito significherebbe questo ruolo, ma gli assistenti dietro il carro portano sulle loro teste attrezzature associate alla produzione tessile. La produzione di tessuti era un obbligo frequente delle donne nelle antiche comunità. Non solo forniva un bene essenziale, ma forniva anche un modo per un marito di lasciare la casa e tornare per vedere i progressi della giornata espressi sul telaio: un modo sottile e indiretto per gli uomini di controllare le opportunità sessuali dei coniugi in un ambiente in cui la discendenza patrilineare era una preoccupazione politica e sociale critica.
+        `,
+        en: `These four images form a connected series. The Procession scene depicts the gowned female arriving at Poggio Civitate. This is almost certainly a bride. Her gown would signify this role – but the attendants behind the chariot carry on their heads equipment associated with textile production. The production of textiles was a frequent obligation of women in ancient communities. It not only provided an essential commodity, it also provided a way for a husband to leave the household and return to see the day’s progress expressed upon the loom – a subtle and indirect way for men to control the sexual opportunities of spouses in an environment where patrilineal descent was a critical political and social concern. 
         `
       }
     }
   </script>
-  
+
   <!--RENDER/TRANSLATE MODULE (GENERAL)-->
   <script src="scripts/render.js" type="module"></script>
 </body>

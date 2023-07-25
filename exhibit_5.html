@@ -12,8 +12,8 @@
     defer></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  
-    <!--CUSTOM STYLES-->
+
+  <!--CUSTOM STYLES-->
   <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -43,18 +43,24 @@
   </nav>
 
   <!--MAIN-->
-  <div class="d-flex flex-column justify-content-between m-3">
-    <div class="fs-1 m-3 text-center" id="title"></div>
-    <div class="d-flex justify-content-center">
-      <img class="m-3 h-25 w-25" src="images/workshop1.jpeg"></img>
+  <div class="container text-center">
+    <div class="row">
+      <div class=" p-3 fs-1" id="title"></div>
     </div>
-    <div class="d-flex flex-column m-3">
-      <div class="mb-3" id="a"></div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="p-3 text-start" id="a"></div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
       <div class="d-flex justify-content-between">
-        <a class="nav-arrow fs-1" href="exhibit_4.html">←</a>
+        <a class="nav-arrow p-2 fs-1" href="exhibit_4.html">←</a>
         <a class="nav-arrow fs-1" href="#"></a>
       </div>
     </div>
+
   </div>
 
   <!--TEXT (SPECIFIC TO EXHIBIT)-->
@@ -64,7 +70,7 @@
         it: "La distruzione di Poggio Civitate",
         en: "The Destruction of Poggio Civitate"
       },
-      a:{
+      a: {
         it: `Ad un certo punto, entro la seconda metà del VI secolo aC, Poggio Civitate viene violentemente distrutto. Le statue vengono prelevate dal tetto e gettate nelle fosse situate a ovest dell'altopiano. Anche le placche del fregio e la sima laterale vengono rimosse e gettate in queste fosse. I pozzi situati a ovest dell'edificio sono riempiti con sculture e detriti del tetto, chiudendo le fonti d'acqua disponibili. Da questo momento in poi Poggio Civitate non viene più rioccupato.
 
         Sfortunatamente, la documentazione archeologica può solo mostrarci cosa è successo, non può dirci perché. Le fonti storiche suggeriscono un certo grado di crisi politica in tutta l'Italia centrale negli ultimi anni del VI secolo, ed è possibile che la distruzione di Poggio Civitate sia stato un evento tra i tanti in cui le comunità hanno subito destini simili. Tuttavia, la chiara intenzionalità dei distruttori nel cancellare le immagini della famiglia regnante della comunità è un indizio importante. Il successivo comportamento romano, chiamato damnatio memoriae, comportava l'obliterazione intenzionale delle immagini come un modo per rimuovere il volto di un avversario sconfitto dai tableaux visibili della vita quotidiana e la distruzione di Poggio Civitate potrebbe essere una precedente versione etrusca di un fenomeno simile.
@@ -80,7 +86,7 @@
       }
     }
   </script>
-  
+
   <!--RENDER/TRANSLATE MODULE (GENERAL)-->
   <script src="scripts/render.js" type="module"></script>
 </body>

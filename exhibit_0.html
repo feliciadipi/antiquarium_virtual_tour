@@ -12,20 +12,20 @@
     defer></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  
-    <!--CUSTOM STYLES-->
+
+  <!--CUSTOM STYLES-->
   <link href="styles.css" rel="stylesheet">
 </head>
 
 <body class="min-vh-100">
   <!--NAVBAR-->
   <nav class="navbar navbar-expand-lg d-flex justify-content-between p-2">
-    
+
     <!--HOMEPAGE LINK-->
     <div class="d-flex">
       <a class="nav nav-item nav-link fs-4" href="home.html">⌂</a>
     </div>
-    
+
     <!--LANGUAGE SELECTION-->
     <div class="d-flex fs-6">
       <ul class="nav">
@@ -43,16 +43,30 @@
   </nav>
 
   <!--MAIN-->
-  <div class="d-flex flex-column justify-content-between m-3">
-    <div class="fs-1 m-3 text-center" id="title"></div>
-    <img class="m-3 h-50 w-50 align-self-center" src="images/civitate.jpg"></img>
-    <div class="d-flex flex-column m-3">
-      <div class="mb-3" id="a"></div>
-      <div class="d-flex justify-content-between">
-        <a class="nav-arrow fs-1" href="home.html">←</a>
-        <a class="nav-arrow fs-1" href="exhibit_1.html">→</a>
+  <div class="container text-center">
+    <div class="row">
+      <div class=" p-3 fs-1" id="title"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <img class="p-3 w-100" src="images/civitate.jpg"></img>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="p-3 text-start" id="a"></div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="d-flex justify-content-between">
+        <a class="nav-arrow p-2 fs-1" href="home.html">←</a>
+        <a class="nav-arrow p-2 fs-1" href="exhibit_1.html">→</a>
+      </div>
+    </div>
+
   </div>
 
   <!--TEXT (SPECIFIC TO EXHIBIT)-->
@@ -62,9 +76,9 @@
         it: "Poggio Civitate: Collina delle Civiltà",
         en: "Poggio Civitate: Hill of the Civilizations"
       },
-      a:{
-        it: 
-        `Poggio Civitate, la collina che si vede guardando a sud di Murlo, ospitò un insediamento etrusco dall'VIII al VI secolo a.C. Mentre gli scavi hanno recuperato tracce di un precedente utilizzo del colle, le prime testimonianze evidenti di un abitato risalgono all'VIII secolo e sono costituite da capanne ovali poste sul versante meridionale del colle. Intorno alla fine dell'VIII o all'inizio del VII secolo, si registra un aumento della popolazione e un interesse per l'architettura domestica monumentale per la famiglia del capo della comunità. Questo antico palazzo, oggi denominato EPOC 4, si trova pochi metri a ovest dell'altopiano del Piano del Tesoro.
+      a: {
+        it:
+          `Poggio Civitate, la collina che si vede guardando a sud di Murlo, ospitò un insediamento etrusco dall'VIII al VI secolo a.C. Mentre gli scavi hanno recuperato tracce di un precedente utilizzo del colle, le prime testimonianze evidenti di un abitato risalgono all'VIII secolo e sono costituite da capanne ovali poste sul versante meridionale del colle. Intorno alla fine dell'VIII o all'inizio del VII secolo, si registra un aumento della popolazione e un interesse per l'architettura domestica monumentale per la famiglia del capo della comunità. Questo antico palazzo, oggi denominato EPOC 4, si trova pochi metri a ovest dell'altopiano del Piano del Tesoro.
 
         L'EPOC 4 viene abbandonato intorno alla metà del VII secolo e sostituito da un complesso di tre edifici situati al Piano del Tesoro, un nuovo palazzo ancora più grande, uno spazio industriale e un edificio tripartito che sembra avesse funzione di edificio religioso. Questa fase della comunità continua in questa forma fino alla fine del VII secolo quando un incendio fortuito distrusse le strutture.
 
@@ -74,8 +88,8 @@
 
         Poggio Civitate è stato al centro di continui scavi e ricerche dal 1966. Originariamente diretto dal Prof. Kyle Meredith Phillips, team di archeologi di tutto il mondo hanno lavorato da allora per recuperare le prove di questa straordinaria comunità. Oggi, un gruppo internazionale coordinato dall'Università del Massachusetts Amherst continua questa tradizione, con scavi, formazione archeologica e ricerca che spingono avanti ciò che sappiamo sulla vita quotidiana dell'antica popolazione della Toscana.
         `,
-        en: 
-        `Poggio Civitate, the hill you see looking south from Murlo, was home to an Etruscan settlement of the 8th through 6th centuries BCE. While excavation has recovered traces of earlier use of the hill, the first clear evidence of people living there dates to the 8th century and consists of oval huts located on the southern side of the hill. Around the end of the 8th or early 7th century, we evidence for increased population and an interest in monumental domestic architecture for the family of the community’s leader. This early palazzo, today called EPOC 4, is located a few meters west of the Piano del Tesoro plateau. 
+        en:
+          `Poggio Civitate, the hill you see looking south from Murlo, was home to an Etruscan settlement of the 8th through 6th centuries BCE. While excavation has recovered traces of earlier use of the hill, the first clear evidence of people living there dates to the 8th century and consists of oval huts located on the southern side of the hill. Around the end of the 8th or early 7th century, we evidence for increased population and an interest in monumental domestic architecture for the family of the community’s leader. This early palazzo, today called EPOC 4, is located a few meters west of the Piano del Tesoro plateau. 
 
         EPOC 4 is abandoned around the middle of the 7th century and replaced by a complex of three buildings located on Piano del Tesoro, a new, even larger palazzo, an industrial space, and a tripartite building that appears to have served as a religious building. This phase of the community continues in this form until the end of the 7th century when an accidental fire destroyed the structures.
 
@@ -88,7 +102,7 @@
       }
     }
   </script>
-  
+
   <!--RENDER/TRANSLATE MODULE (GENERAL)-->
   <script src="scripts/render.js" type="module"></script>
 </body>
